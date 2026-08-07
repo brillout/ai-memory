@@ -33,7 +33,7 @@ Examples:
 
 - Business context
 - Unique insights
-- Things that were tried and deliberately rejected
+- Things that were tried but deliberately rejected and why
 
 Skip:
 
@@ -51,7 +51,7 @@ Skip:
 ```md
 ## TLDR [optional]
 
-List of one-sentence succinct summary of each knowledge listed below.
+List of one-sentence succinct summary of each point listed below.
 
 ## Decisions [optional]
 
