@@ -32,6 +32,7 @@ Litmus test: **if a fresh AI session should know about it, and the knowledge isn
 Examples:
 
 - Business context
+- Business constraint that exists nowhere in the code
 - Unique insights
 - Things that were tried but deliberately rejected and why
 
@@ -42,8 +43,9 @@ Skip:
 - Session logs
 - Step-by-step descriptions of recent work
 - Generic programming knowledge
-- Build/CI instructions that belong in repository documentation
 - Facts that are likely to become obsolete
+- Build/CI instructions that belong in repository documentation
+- Anything a linter, type, or test already enforces => let the tool do the remembering
 
 
 ## File content
