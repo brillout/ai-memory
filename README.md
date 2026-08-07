@@ -5,39 +5,31 @@
 Tell AI:
 
 ```
-Apply https://raw.githubusercontent.com/brillout/sdd/refs/heads/main/sdd.md
+Apply https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
 ```
 
 > [!NOTE]
-> [https://raw.githubusercontent.com/brillout/sdd/refs/heads/main/sdd.md](https://raw.githubusercontent.com/brillout/sdd/refs/heads/main/sdd.md) is the raw link of the `ssd.md` file of this repository.
+> [https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md](https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md) is the raw link of the `ssd.md` file of this repository.
 
 #### What does it do?
 
-- AI generates `.spec.md` for each source code file:
+- AI generates `MEMORY.md` files:
   ```md
-  One-sentence description of what this file/directory does.
-
   ## TLDR
 
-  - Code does this
-  - And that
-  - ...
-
-  ## Problems
-
-  List of non-obvious problems.
+  List of one-sentence succinct summary of each knowledge listed below.
 
   ## Decisions
 
-  List of non-obvious decisions.
+  Important decisions that were made, and their rationale if available.
 
-  ## Facts
+  ## Knowledge
 
-  List of non-obvious uncommon knowledge.
+  Important uncommon knowledge when working on this area.
 
-  ## Flows
+  ## Gotchas
 
-  List of all high-level flows.
+  Things that are easy to get wrong or overlook.
   ```
 - AI will maintain these `.spec.md` files
 
@@ -49,4 +41,4 @@ It enables you to:
 
 #### How does it work?
 
-Read the `sdd.md` file — it's small.
+Read the `memory.md` file — it's small.
