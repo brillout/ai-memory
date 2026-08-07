@@ -16,7 +16,7 @@ It contains durable, important, and unique knowledge that should be remembered a
 Litmus test: **if a fresh AI session should know about it, and the knowledge isn't available from the internet or reading the code, it belongs in `MEMORY.md`.**
 
 
-## What's inside `MEMORY.md`
+## Content
 
 - Memory is for **knowledge**, not a description of the codebase
 - Prefer durable knowledge over temporary context
@@ -46,7 +46,7 @@ Skip:
 - Facts that are likely to become obsolete
 
 
-## Content
+## File content
 
 ```md
 ## TLDR [optional]
