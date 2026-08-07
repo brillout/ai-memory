@@ -28,6 +28,7 @@ Litmus test: **if a fresh AI session should know about it, and the knowledge isn
 - Don't turn memory into a diary or session log
 - Keep it small and high-signal — every sentence should earn its place
 - ELI5: simple terms, no jargon
+- Delete on contradiction: when an entry turns out false, remove it — don't append a correction below it.
 
 Examples:
 
@@ -46,6 +47,9 @@ Skip:
 - Facts that are likely to become obsolete
 - Build/CI instructions that belong in repository documentation
 - Anything a linter, type, or test already enforces => let the tool do the remembering
+- Secrets, credentials, personal data
+- Global preferences (style, tone, tooling) => those belong in the agent's config, not beside the code
+- Session logs, changelogs, "what I did today" => that's history, not memory
 
 
 ## File content
@@ -78,3 +82,12 @@ Notes:
 - Prefer updating existing knowledge over accumulating new entries
 - Remove obsolete knowledge
 - Consider using graphics (e.g. `mermaid` code blocks) whenever helpful
+
+
+# Maintenance
+
+Unmaintained memory is worse than none — a wrong entry costs more than an absent one.
+
+- Eagerly delete: when an entry turns out false (e.g. contridicts more recent knowledge), remove it — don't append a correction below it.
+- DRY — one entry, one place: duplicated memory drifts apart and both copies become untrustworthy.
+- Pin what moves: an entry that depends on an external version, service, or platform says so, so it can be re-checked.
