@@ -51,19 +51,19 @@ Skip:
 ```md
 ## TLDR [optional]
 
-List of one-sentence succinct summary of each point listed below.
+List of one-sentence succinct summary of each item listed below.
 
 ## Decisions [optional]
 
-Important decisions that were made (and their rationale if available).
+List of important decisions that were made (and their rationale if available).
 
 ## Knowledge [optional]
 
-Important and unique knowledge when working on this area.
+List of important and unique knowledge when working on this area.
 
 ## Gotchas [optional]
 
-Things that are easy to get wrong.
+List of things that are easy to get wrong.
 
 ## Before modifying this file
 
