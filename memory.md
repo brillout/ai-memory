@@ -19,14 +19,14 @@ Litmus test: **if a fresh AI session should know about it, and the knowledge isn
 ## Content
 
 - Memory is for **knowledge**, not a description of the codebase
-- Prefer durable knowledge over temporary context
-- Likely useful across many agent sessions
-- Stable enough to remain useful
+- Durable knowledge, not temporary context
+- Likely going to be useful across *many* agent sessions
+- Stable enough to remain useful, no temporary knowledge
 - Important for making correct decisions
-- Only document unique knowledge: skip anything that can be found on the internet
-- Don't document things that can inferred by reading the code
+- Only unique knowledge: skip anything that can be found on the internet
+- Skip anything that can be inferred by reading the code
 - Don't turn memory into a diary or session log
-- Keep it concise: every sentence should earn its place — keep memory small and high-signal
+- Keep it small and high-signal — every sentence should earn its place
 - ELI5: simple terms, no jargon
 
 Examples:
