@@ -26,7 +26,7 @@ Litmus test: **if a fresh AI session should know about it, and the knowledge isn
 - Only document unique knowledge: skip anything that can be found on the internet
 - Don't document things that can inferred by reading the code
 - Don't turn memory into a diary or session log
-- Keep it concise: every sentence should earn its place
+- Keep it concise: every sentence should earn its place — keep memory small and high-signal
 - ELI5: simple terms, no jargon
 
 Examples:
@@ -34,7 +34,6 @@ Examples:
 - Business context
 - Unique insights
 - Things that were tried and deliberately rejected
-- Project preferences that affect future work
 
 Skip:
 
@@ -74,7 +73,6 @@ Read this file's format at https://raw.githubusercontent.com/brillout/ai-memory/
 Notes:
 
 - The `## ... [optional]` sections are optional, and feel free to create other sections
-- Keep memory small and high-signal
 - Prefer updating existing knowledge over accumulating new entries
 - Remove obsolete knowledge
 - Consider using graphics (e.g. `mermaid` code blocks) whenever helpful
