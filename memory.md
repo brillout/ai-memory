@@ -4,6 +4,8 @@ Store knowledge that AI agents should remember across sessions in `MEMORY.md` fi
 - `some-dir/` => `some-dir/MEMORY.md` => applies only to the directory
 - `some-file.ext` => `some-file.MEMORY.md` => applies only to the file
 
+Agents should consult all applicable `MEMORY.md` files before modifying code.
+
 # Goal
 
 A `MEMORY.md` is the answer an AI agent gives itself when a future session asks: **"What do I need to remember about this?"**
@@ -86,14 +88,3 @@ The distinction is simple:
 A `SPEC.md` describes the system's business logic.
 
 A `MEMORY.md` describes knowledge that helps an AI reason about the system and make good decisions.
-
-# Hierarchy
-
-The file structure can represent levels of knowledge => mirror it:
-
-- Root `MEMORY.md` => knowledge relevant to the entire project
-- Deeper `MEMORY.md` files => knowledge specific to that subsystem
-- A `MEMORY.md` should only contain knowledge relevant to its scope
-- When moving code, also move the relevant `MEMORY.md` content
-
-Agents should consult all applicable `MEMORY.md` files before modifying code.
