@@ -6,23 +6,48 @@ Store knowledge that AI agents should remember across sessions in `MEMORY.md` fi
 
 Agents should consult all applicable `MEMORY.md` files when reading or modifying code.
 
-# Goal
+
+## Goal
 
 A `MEMORY.md` is the answer an AI agent gives itself when a future session asks: **"What do I need to remember about this?"**
 
-It contains durable, important, and uncommon/unique knowledge that should be remembered across agent sessions — things that would otherwise have to be repeatedly explained.
+It contains durable, important, and unique knowledge that should be remembered across agent sessions — things that would otherwise have to be repeatedly explained.
 
 Litmus test: **if a fresh AI session should know about it, and the knowledge isn't available from the internet or reading the code, it belongs in `MEMORY.md`.**
 
+
+## What's inside `MEMORY.md`
+
 - Memory is for **knowledge**, not a description of the codebase
 - Prefer durable knowledge over temporary context
-- Only document uncommon/unique knowledge: skip anything that can be found on the internet
+- Likely useful across many agent sessions
+- Stable enough to remain useful
+- Important for making correct decisions
+- Only document unique knowledge: skip anything that can be found on the internet
 - Don't document things that can inferred by reading the code
-- Do not turn memory into a diary or session log
+- Don't turn memory into a diary or session log
 - Keep it concise: every sentence should earn its place
 - ELI5: simple terms, no jargon
 
-# Content
+Examples:
+
+- Business context
+- Unique insights
+- Things that were tried and deliberately rejected
+- Project preferences that affect future work
+
+Skip:
+
+- Temporary task context
+- TODO lists
+- Session logs
+- Step-by-step descriptions of recent work
+- Generic programming knowledge
+- Build/CI instructions that belong in repository documentation
+- Facts that are likely to become obsolete
+
+
+## Content
 
 ```md
 ## TLDR [optional]
@@ -35,7 +60,7 @@ Important decisions that were made (and their rationale if available).
 
 ## Knowledge [optional]
 
-Important and uncommon/unique knowledge when working on this area.
+Important and unique knowledge when working on this area.
 
 ## Gotchas [optional]
 
@@ -49,32 +74,7 @@ Read this file's format at https://raw.githubusercontent.com/brillout/ai-memory/
 Notes:
 
 - The `## ... [optional]` sections are optional, and feel free to create other sections
-- Keep memory **small and high-signal**
+- Keep memory small and high-signal
 - Prefer updating existing knowledge over accumulating new entries
 - Remove obsolete knowledge
 - Consider using graphics (e.g. `mermaid` code blocks) whenever helpful
-
-# What gets a MEMORY.md
-
-Store knowledge that is:
-
-- Useful across multiple agent sessions
-- Not obvious from the code
-- Important for making correct decisions
-- Stable enough to remain useful
-
-Examples:
-
-- Things that were tried and deliberately rejected
-- Project preferences that affect future work
-- Important knowledge that is both uncommon/unique (cannot be found on the internet) and that cannot be inferred from the repository
-
-Skip:
-
-- Temporary task context
-- TODO lists
-- Session logs
-- Step-by-step descriptions of recent work
-- Generic programming knowledge
-- Build/CI instructions that belong in repository documentation
-- Facts that are likely to become obsolete
