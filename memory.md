@@ -86,3 +86,20 @@ Unmaintained memory is worse than none — a wrong entry costs more than an abse
 
 - **Delete obsolete knowledge:** when an entry turns out false (e.g. contridicts more recent knowledge), remove it; don't append corrections (no history)
 - **DRY — one entry, one place:** duplicated memory drifts apart and makes both copies unreliable
+
+
+## Installation
+
+If the repository hasn't any `MEMORY.md` yet, then create `MEMORY.md` at the repository root:
+
+```
+No memory yet.
+
+AI agents should store knowledge communicated by humans that they should remember across sessions in `MEMORY.md` files.
+
+## Before modifying this file
+
+Read this file's format at https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
+```
+
+If the repository already has `MEMORY.md` then there is nothing to do. (Agents automatically see and maintain the `MEMORY.md` files.)
