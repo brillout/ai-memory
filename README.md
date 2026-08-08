@@ -31,9 +31,7 @@ Apply https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memor
 
 #### Why?
 
-It enables you to:
-- When AI makes a change, quickly read the modified business logic instead of reading code
-- Quickly navigate unfamiliar code
+It enables agents to remember what you tell it.
 
 #### How does it work?
 
