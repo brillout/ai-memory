@@ -48,5 +48,5 @@ Read the [`memory.md` file](./memory.md) — it's small.
 
 ## See also
 
-- [@brillout/sdd](https://github.com/brillout/sdd/blob/main/sdd.md) — Spec-Driven Development
+- [@brillout/sdd](https://github.com/brillout/sdd) — Spec-Driven Development
 - [The Framework](https://the-framework.ai/) — Autonomous AI. Make the important decisions, let AI do the rest.
