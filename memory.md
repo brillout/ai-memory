@@ -80,7 +80,7 @@ Notes:
 - Consider using graphics (e.g. `mermaid` code blocks) whenever helpful
 
 
-## Maintenance
+## Maintain
 
 Unmaintained memory is worse than none — a wrong entry costs more than an absent one.
 
@@ -95,7 +95,7 @@ If the repository hasn't any `MEMORY.md` yet, then "install" by creating this `M
 ```
 No memory yet.
 
-AI agents should store knowledge communicated by humans that they should remember across sessions in `MEMORY.md` files.
+AI agents store knowledge communicated by humans that they should remember across sessions in `MEMORY.md` files.
 
 ## Before modifying this file
 
