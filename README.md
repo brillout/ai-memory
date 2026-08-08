@@ -5,7 +5,7 @@
 Tell AI:
 
 ```
-Apply https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
+Install https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
 ```
 
 > [!NOTE]

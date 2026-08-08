@@ -88,9 +88,9 @@ Unmaintained memory is worse than none — a wrong entry costs more than an abse
 - **DRY — one entry, one place:** duplicated memory drifts apart and makes both copies unreliable
 
 
-## Installation
+## Install
 
-If the repository hasn't any `MEMORY.md` yet, then create `MEMORY.md` at the repository root:
+If the repository hasn't any `MEMORY.md` yet, then "install" by creating this `MEMORY.md` at the repository root:
 
 ```
 No memory yet.
