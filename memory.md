@@ -1,6 +1,6 @@
 Store knowledge communicated by a human that AI agents should remember across sessions in `MEMORY.md` files:
 
-- `MEMORY.md` => global memory that applies for the repository as a whole
+- `MEMORY.md` => global memory that applies to the whole repository
 - `some-dir/` => `some-dir/MEMORY.md` => applies only to the directory
 - `some-file.ext` => `some-file.MEMORY.md` => applies only to the file
 
@@ -15,27 +15,23 @@ It contains durable, important, and unique knowledge that would otherwise need t
 
 The AI agent decides what knowledge is worth remembering, but the knowledge itself must come from communication with a human. The agent may summarize, reorganize, and clarify it, but should not add knowledge based solely on its own discoveries, reasoning, code inspection, or research.
 
-**Litmus test:** knowledge belongs to `MEMORY.md` if a fresh AI session should know it, it isn't available on the internet or by reading the code, and it was communicated to the agent.
+**Litmus test:** knowledge belongs to `MEMORY.md` if a fresh AI session should know it, it isn't available on the internet or by reading the code, and it was communicated by a human.
 
 
 ## Content
 
-- Knowledge communicated to the agent, not a description of the codebase
-- Durable knowledge, not temporary context
+- Durable knowledge, not temporary context — stable enough to remain useful over time
 - Likely to be useful across *many* agent sessions
-- Stable enough to remain useful over time
 - Important for making correct decisions
 - Only unique knowledge: skip anything that can be found on the internet
 - Skip anything that can be inferred by reading the code
 - Don't turn memory into a diary or session log
 - Keep it small and high-signal — every sentence should earn its place
-- ELI5: simple terms, avoid unnecessary jargon
-- Delete obsolete knowledge: when an entry is no longer true, remove it instead of keeping historical corrections
 
-Examples of knowledge communicated by:
+Examples:
 
 - Business context
-- Business constraints not defined anywhere
+- Business constraints not defined anywhere else
 - Unique domain knowledge
 - Important decisions (and their rationale if available)
 - Things that were tried but deliberately rejected
@@ -47,15 +43,15 @@ Skip:
 - Knowledge inferred from reading the code
 - Temporary task context
 - TODO lists
-- Session logs
+- Facts likely to become obsolete
+- Session logs, changelogs, and historical records
 - Step-by-step descriptions of recent work
 - Generic programming knowledge
-- Facts likely to become obsolete
-- Build/CI instructions that belong in repository documentation
-- Anything a linter, type checker, or test already enforces
 - Secrets, credentials, or personal data
-- Global preferences (style, tone, tooling) if already defined in agent configuration
-- Changelogs and historical records
+- Anything already defined somewhere else
+  - Build/CI instructions already defined in repository documentation
+  - Global preferences (style, tone, tooling) already defined in agent configuration
+  - Anything a linter, type checker, or test already enforces
 
 
 ## File format
@@ -71,7 +67,7 @@ List of important decisions that were communicated by a human (and their rationa
 
 ## Knowledge [optional]
 
-List important and unique knowledge communicated to the agent.
+List of important and unique knowledge communicated to the agent.
 
 ## Before modifying this file
 
