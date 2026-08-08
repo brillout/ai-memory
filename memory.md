@@ -20,7 +20,6 @@ The AI agent decides what knowledge is worth remembering, but the knowledge itse
 
 ## Content
 
-- Durable knowledge, not temporary context — stable enough to remain useful over time
 - Likely to be useful across *many* agent sessions
 - Important for making correct decisions
 - Only unique knowledge: skip anything that can be found on the internet
@@ -43,7 +42,6 @@ Skip:
 - Knowledge inferred from reading the code
 - Temporary task context
 - TODO lists
-- Facts likely to become obsolete
 - Session logs, changelogs, and historical records
 - Step-by-step descriptions of recent work
 - Generic programming knowledge
@@ -92,7 +90,7 @@ Unmaintained memory is worse than none — a wrong entry costs more than an abse
 
 If the repository hasn't any `MEMORY.md` yet, then "install" by creating this `MEMORY.md` at the repository root:
 
-```
+```md
 No memory yet.
 
 AI agents store knowledge communicated by humans that they should remember across sessions in `MEMORY.md` files.
