@@ -9,7 +9,7 @@ Apply https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memor
 ```
 
 > [!NOTE]
-> [https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md](https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md) is the raw link of the `ssd.md` file of this repository.
+> [https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md](https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md) is the raw link of the `memory.md` file of this repository.
 
 #### What does it do?
 
@@ -27,7 +27,7 @@ Apply https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memor
 
   List of important and unique knowledge communicated to the agent.
   ```
-- AI will maintain these `.spec.md` files
+- AI will maintain these `MEMORY.md` files
 
 #### Why?
 
