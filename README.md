@@ -17,19 +17,15 @@ Apply https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memor
   ```md
   ## TLDR
 
-  List of one-sentence succinct summary of each knowledge listed below.
+  List of one-sentence succinct summary of each item listed below.
 
   ## Decisions
 
-  Important decisions that were made, and their rationale if available.
+  List of important decisions that were communicated by a human (and their rationale if available).
 
   ## Knowledge
 
-  Important uncommon knowledge when working on this area.
-
-  ## Gotchas
-
-  Things that are easy to get wrong or overlook.
+  List of important and unique knowledge communicated to the agent.
   ```
 - AI will maintain these `.spec.md` files
 
