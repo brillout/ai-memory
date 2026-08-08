@@ -21,7 +21,7 @@ Install https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/mem
 
   ## Decisions
 
-  List of important decisions that were communicated by a human
+  List of important decisions that were communicated by a human.
 
   ## Knowledge
 
