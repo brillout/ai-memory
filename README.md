@@ -13,21 +13,25 @@ Install https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/mem
 
 #### What does it do?
 
-- AI generates `MEMORY.md` files:
-  ```md
-  ## TLDR
+AI generates and maintains `MEMORY.md` files:
 
-  List of one-sentence succinct summary of each item listed below.
+```md
+## TLDR
 
-  ## Decisions
+List of one-sentence succinct summary of each item listed below.
 
-  List of important decisions that were communicated by a human.
+## Decisions
 
-  ## Knowledge
+List of important decisions that were communicated by a human.
 
-  List of important and unique knowledge communicated to the agent.
-  ```
-- AI will maintain these `MEMORY.md` files
+## Knowledge
+
+List of important and unique knowledge communicated to the agent.
+
+## More
+
+...
+```
 
 #### Why?
 
@@ -35,4 +39,4 @@ It enables agents to remember what you tell it.
 
 #### How does it work?
 
-Read the `memory.md` file — it's small.
+Read the [`memory.md` file](./memory.md) — it's small.
