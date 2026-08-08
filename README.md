@@ -1,6 +1,7 @@
 # AI memory
 
-#### Get started
+
+## Get started
 
 Tell AI:
 
@@ -11,7 +12,8 @@ Install https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/mem
 > [!NOTE]
 > [https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md](https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md) is the raw link of the `memory.md` file of this repository.
 
-#### What does it do?
+
+## What does it do?
 
 AI generates and maintains `MEMORY.md` files:
 
@@ -33,10 +35,18 @@ List of important and unique knowledge communicated to the agent.
 ...
 ```
 
-#### Why?
+
+## Why?
 
 It enables agents to remember what you tell it.
 
-#### How does it work?
+
+## How does it work?
 
 Read the [`memory.md` file](./memory.md) — it's small.
+
+
+## See also
+
+- [@brillout/sdd](https://github.com/brillout/sdd/blob/main/sdd.md) — Spec-Driven Development
+- [The Framework](https://the-framework.ai/) — Autonomous AI. Make the important decisions, let AI do the rest.
