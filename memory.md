@@ -55,26 +55,28 @@ Skip:
 ## File format
 
 ```md
-## TLDR [optional]
+## TLDR
 
-List of one-sentence succinct summary of each item listed below.
+List of one-sentence succinct summary of the content below.
 
-## Decisions [optional]
+## Decisions
 
 List of important decisions that were communicated by a human (and their rationale if available).
 
-## Knowledge [optional]
+## Knowledge
 
 List of important and unique knowledge communicated to the agent.
 
-## Before modifying this file
+## Before writing MEMORY.md files
 
-Read this file's format at https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
+Read https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
 ```
 
 Notes:
-
-- The `## ... [optional]` sections are optional; create other sections when useful
+- Sections:
+  - `## Before writing MEMORY.md` must never be omitted
+  - The other `##` sections are optional
+  - Create other sections when useful
 - Consider using graphics (e.g. `mermaid` code blocks) whenever helpful
 
 
@@ -88,16 +90,14 @@ Unmaintained memory is worse than none — a wrong entry costs more than an abse
 
 ## Install
 
-If the repository hasn't any `MEMORY.md` yet, then "install" by creating this `MEMORY.md` at the repository root:
+1. If the repository hasn't any `MEMORY.md` yet, create this `MEMORY.md` at the repository root:
+    ```md
+    No memory yet.
 
-```md
-No memory yet.
+    AI agents store knowledge communicated by humans that they should remember across sessions in `MEMORY.md` files.
 
-AI agents store knowledge communicated by humans that they should remember across sessions in `MEMORY.md` files.
+    ## Before writing MEMORY.md files
 
-## Before modifying this file
-
-Read this file's format at https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
-```
-
-If the repository already has `MEMORY.md` then there is nothing to do. (Agents automatically see and maintain the `MEMORY.md` files.)
+    Read https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
+    ```
+2. Make sure `AGENTS.md` mentions a sentence like this: "Consider saving project-specific knowledge a human told you in MEMORY.md files, see https://raw.githubusercontent.com/brillout/sdd/refs/heads/main/sdd.md"
