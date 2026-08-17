@@ -100,4 +100,4 @@ Unmaintained memory is worse than none — a wrong entry costs more than an abse
 
     Read https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
     ```
-2. Make sure `AGENTS.md` mentions a sentence like this: "Consider saving project-specific knowledge a human told you in MEMORY.md files, see https://raw.githubusercontent.com/brillout/sdd/refs/heads/main/sdd.md"
+2. Make sure `AGENTS.md` mentions this sentence: "Consider loading and saving project-specific knowledge a human told you via MEMORY.md files, see https://raw.githubusercontent.com/brillout/sdd/refs/heads/main/sdd.md"
