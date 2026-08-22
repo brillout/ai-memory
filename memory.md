@@ -74,7 +74,7 @@ Read https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory
 
 Notes:
 - Sections:
-  - `## Before writing MEMORY.md` must never be omitted
+  - `## Before writing MEMORY.md files` must never be omitted
   - The other `##` sections are optional
   - Create other sections when useful
 - Consider using graphics (e.g. `mermaid` code blocks) whenever helpful
@@ -84,7 +84,7 @@ Notes:
 
 Unmaintained memory is worse than none — a wrong entry costs more than an absent one.
 
-- **Delete obsolete knowledge:** when an entry turns out false (e.g. contridicts more recent knowledge), remove it; don't append corrections (no history)
+- **Delete obsolete knowledge:** when an entry turns out false (e.g. contradicts more recent knowledge), remove it; don't append corrections (no history)
 - **DRY — one entry, one place:** duplicated memory drifts apart and makes both copies unreliable
 
 
@@ -100,4 +100,8 @@ Unmaintained memory is worse than none — a wrong entry costs more than an abse
 
     Read https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
     ```
-2. Make sure `AGENTS.md` contains this sentence: "Consider loading and saving project-specific knowledge a human told you via MEMORY.md files, see https://raw.githubusercontent.com/brillout/sdd/refs/heads/main/sdd.md"
+2. Make sure `AGENTS.md` mentions something like this:
+    ```md
+    - When reading or modifying code, read all applicable MEMORY.md files (`MEMORY.md`, `some-dir/MEMORY.md`, `some-file.ext.MEMORY.md`).
+    - When a human tells you something worth remembering across sessions, save it to the applicable MEMORY.md — before writing MEMORY.md files, read https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
+    ```
