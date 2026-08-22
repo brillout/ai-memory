@@ -100,8 +100,7 @@ Unmaintained memory is worse than none — a wrong entry costs more than an abse
 
     Read https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
     ```
-2. Make sure `AGENTS.md` mentions something like this:
-    ```md
-    - When reading or modifying code, read all applicable MEMORY.md files (`MEMORY.md`, `some-dir/MEMORY.md`, `some-file.ext.MEMORY.md`).
-    - When a human tells you something worth remembering across sessions, save it to the applicable MEMORY.md — before writing MEMORY.md files, read https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md
-    ```
+2. Make sure `AGENTS.md` contains following 3 sentences:
+   - "Before modifying/creating MEMORY.md files, you must always read and respect https://raw.githubusercontent.com/brillout/ai-memory/refs/heads/main/memory.md"
+   - "When reading or modifying code, read all applicable MEMORY.md files"
+   - "When a human tells you something worth remembering across sessions, consider saving it to MEMORY.md"
